@@ -8,7 +8,7 @@
 
 #header-bottom-left {
   position: static;
-  background: #000 url(%%flag2%%) top left repeat; /* background: #000 url(%%bandera%%) top left no-repeat; */
+  background: #000 url(%%flag2%%) top left repeat;
   background-position: 0px -5px;
   height: 150px;
   z-index: 1;
@@ -85,4 +85,26 @@
 
 .content {
   margin-top: 50px;
+}
+
+.md h5 {
+  position: absolute;
+  bottom: 220px;
+  right: 400px;
+  
+  width: 205px;
+  height: 20px;
+
+  padding: 7px 8px 3px 8px;
+
+  border: 1px solid black;
+  border-radius: 20px;
+
+  background-color: #eee;
+  z-index: 100;
+}
+
+.md h5 a:before {
+  content: "Sticky: ";
+  color: black;
 }

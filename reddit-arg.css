@@ -90,7 +90,7 @@
 .md h5 {
   position: absolute;
   bottom: 220px;
-  right: 400px;
+  /*right: 200px;*/
   
   width: 205px;
   height: 20px;
@@ -100,7 +100,7 @@
   border: 1px solid black;
   border-radius: 20px;
 
-  background-color: #eee;
+  background-color: #ffe148;
   z-index: 100;
 }
 

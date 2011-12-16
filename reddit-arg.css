@@ -1,0 +1,88 @@
+.commentarea h1 {
+  border-top:1px dotted gray;
+  padding-top:3px;
+  margin:10px 310px 0px 10px;
+  padding-bottom:3px;
+  border-bottom:1px dotted gray;
+}
+
+#header-bottom-left {
+  position: static;
+  background: #000 url(%%flag2%%) top left repeat; /* background: #000 url(%%bandera%%) top left no-repeat; */
+  background-position: 0px -5px;
+  height: 150px;
+  z-index: 1;
+  box-shadow: 0px 8px 10px #888;
+}
+
+#header-bottom-left .redditname {
+  display: block;
+  position: absolute;
+
+  top: 62px;
+  left: 250px;
+  background: url(%%title%%) no-repeat;
+  height:50px;
+  width: 240px;
+}
+
+#header-bottom-left .redditname a {
+  display: block;
+  height:50px;
+  width: 240px;
+  opacity: 0;
+
+  /*hack ie*/
+  text-indent: -3000px;
+  white-space: nowrap;  
+}
+
+#header-bottom-right {
+  background-color: #eee;
+  text-shadow: #ccc 0 1px 0;
+}
+
+#header-img.default-header {
+  background: url(%%reddit-alien-half-horizontal-chico%%) top left no-repeat;
+  margin-top: 50px;
+  height:100px;
+  width: 300px;
+}
+
+.tabmenu {
+  display: block;
+  margin-top: -18px;
+  margin-left: 200px;
+  text-shadow: #ccc 0 1px 0;
+  font-size: 12px;
+  padding:3px;
+
+  border-radius: 15px;
+  border: 1px solid black;
+
+  width: auto;
+  height: 15px;
+
+  /*positioning*/
+  position: absolute;
+  left: -160px;
+  top: 203px;
+  background-color: #eee;
+}
+
+.tabmenu li a {
+  background-color: transparent;
+}
+
+.tabmenu li.selected a, .tabmenu li a:hover {
+  color:orangered;
+  background-color: transparent;
+  border:0 !important;
+  z-index:100;
+
+  text-shadow: 0px 0px 10px white;
+}
+
+.content {
+  margin-top: 50px;
+}

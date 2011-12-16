@@ -87,10 +87,16 @@
   margin-top: 50px;
 }
 
+/* Sticky Box */
+
+.titlebox form {
+  position: static;
+}
+
 .md h5 {
   position: absolute;
-  bottom: 220px;
-  /*right: 200px;*/
+  top: 73px;
+  left: 600px;
   
   width: 205px;
   height: 20px;

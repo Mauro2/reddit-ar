@@ -43,7 +43,7 @@
 }
 
 #header-img.default-header {
-  background: url(%%reddit-alien-half-horizontal-chico%%) top left no-repeat;
+  background: url(%%reddit-alien-arg%%) top left no-repeat;
   margin-top: 50px;
   height:100px;
   width: 300px;
@@ -107,4 +107,12 @@
 .md h5 a:before {
   content: "Sticky: ";
   color: black;
+}
+
+.md h5 a:hover {
+  text-decoration: underline;
+}
+
+.linklisting .midcol .down {
+  display: none;
 }

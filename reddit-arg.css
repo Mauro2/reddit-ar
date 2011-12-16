@@ -87,8 +87,7 @@
   margin-top: 50px;
 }
 
-/* Sticky Box */
-
+/* Sticky */
 .titlebox form {
   position: static;
 }
@@ -103,7 +102,7 @@
 
   padding: 7px 8px 3px 8px;
 
-  border: 1px solid black;
+  box-shadow: 0 1px 15px #968601;
   border-radius: 20px;
 
   background-color: #ffe148;
@@ -118,6 +117,8 @@
 .md h5 a:hover {
   text-decoration: underline;
 }
+
+/*/end Sticky */
 
 .linklisting .midcol .down {
   display: none;

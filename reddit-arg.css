@@ -88,13 +88,14 @@
 }
 
 /* Sticky */
+
 .titlebox form {
   position: static;
 }
 
 .md h5 {
   position: absolute;
-  top: 73px;
+  top: 74px;
   left: 600px;
   
   height: 20px;
@@ -122,8 +123,9 @@
   opacity: 1;
 }
 
-/*/end Sticky */
+/* end Sticky */
 
+/* block downvotes */
 .linklisting .midcol .down {
   display: none;
 }
